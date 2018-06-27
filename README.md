@@ -14,6 +14,9 @@ Features
 It's only feature is to act like a real compass and always point to the north.
 
 
+![Realcompass Screenshot](screenshot.png "Realcompass")
+
+
 Crafting guide
 --------------
 ```
