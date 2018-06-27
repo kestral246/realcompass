@@ -15,6 +15,9 @@ This mod tries to address what the "real" essence of being a compass is all abou
 
 No options, no gui's, just an animated needle that points toward the north.
 
+The only other change that I made was, that since compasses are typically divided up in 1/4th, 
+1/8th, and 1/16th divisions, I updated it to point in 16 directions rather than the original 12.
+
 
 ![Realcompass Screenshot](screenshot.png "Realcompass")
 
