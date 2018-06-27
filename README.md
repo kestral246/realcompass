@@ -1,5 +1,5 @@
-Realcompass
-===========
+Real Compass
+============
 
 **compass** *(n)* A mechanical or electronic instrument used for navigation or orienteering,
 which points to the physical or magnetic north pole.
@@ -11,7 +11,9 @@ David_G (kestral246@gmail.com)
 
 Features
 --------
-It's only feature is to act like a real compass and always point to the north.
+This mod tries to address what the "real" essence of being a compass is all about.
+
+No options, no gui's, just an animated needle that points toward the north.
 
 
 ![Realcompass Screenshot](screenshot.png "Realcompass")
@@ -19,6 +21,8 @@ It's only feature is to act like a real compass and always point to the north.
 
 Crafting guide
 --------------
+Same crafting recipe as the other compass versions, so it's probably not compatible with them.
+
 ```
              , steel_ingot          ,
   steel_ingot, mese_crystal_fragment, steel_ingot
@@ -35,6 +39,9 @@ License
 
 Thanks
 ------
+This mod is basically compassgps with 90% of its code ripped out, so I can't take much credit.
+That belongs to Echo, PilzAdams, TeTpaAka, and Kilarin.  I was just standing on their shoulders.
+
 - [compassgps](https://github.com/Kilarin/compassgps) / Kilarin (Donald Hines),
-et. al. 
+et. al.
 
