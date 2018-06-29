@@ -18,8 +18,14 @@ No options, no gui's, just an animated needle that points toward the north.
 The only other change that I made was, that since compasses are typically divided up in 1/4th, 
 1/8th, and 1/16th divisions, I updated it to point in 16 directions rather than the original 12.
 
-
 ![Realcompass Screenshot](screenshot.png "Realcompass")
+
+I've converted the better looking ccompass textures to 16 directions and placed them in the
+textures_alt directory for testing.
+
+To use them, rename the "textures_alt" directory to "textures". 
+
+![Realcompass_alt Screenshot](screenshot_alt.png "Realcompass_alt")
 
 
 Crafting guide
@@ -35,7 +41,8 @@ Same crafting recipe as the other compass versions, so it's probably not compati
 
 License
 -------
-- **textures:** original compass textures: CC BY-SA by Echo (45deg versions added by kestral246 also CC BY-SA) 
+- **original textures:** original compass textures: CC BY-SA by Echo (45deg versions added by kestral246 also CC BY-SA)
+- **new textures:** from ccompass, textures CC BY-SA by tacotexmex (45deg versions added by kestral246 also CC BY-SA)
 - **code:**  My changes to original code are CC0-1.0
 - **original compassgps license:** Original code by Echo, PilzAdam, and TeTpaAka is WTFPL. Kilarin (Donald Hines) changes are CC0 (No rights reserved)
 
@@ -47,4 +54,4 @@ That belongs to Echo, PilzAdams, TeTpaAka, and Kilarin.  I was just standing on 
 
 - [compassgps](https://github.com/Kilarin/compassgps) / Kilarin (Donald Hines),
 et. al.
-
+- [ccompass](https://github.com/minetest-mods/ccompass) / code: bell07, textures: tacotexmex
