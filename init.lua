@@ -1,10 +1,11 @@
--- realcompass 1.0
+-- realcompass 1.1
 -- This fork written by David_G (kestral246@gmail.com)
 -- My changes are CC0 (No rights reserved)
 -- textures:  original compass textures: CC BY-SA by Echo (I added 45deg versions)
 -- Changes:
 --      only points north
---      16 directions instead of 12
+--      reverted back to 12 directions--I couldn't get the 16-direction version's animations to look as good.
+--      changed crafting recipe so it can be used in parallel with other compass versions.
 
 -- based on compassgps 2.7 and compass 0.5
 --
@@ -51,7 +52,7 @@ minetest.register_globalstep(function(dtime)
         if gotacompass then
             local dir = player:get_look_horizontal()
             local angle_relative = math.deg(dir)
-            local compass_image = math.floor((angle_relative/22.5) + 0.5)%16
+            local compass_image = math.floor((angle_relative/30) + 0.5)%12
 
             --update compass image to point at target
             if wielded then
@@ -76,10 +77,6 @@ local images = {
         "realcompass_9.png",
         "realcompass_10.png",
         "realcompass_11.png",
-        "realcompass_12.png",
-        "realcompass_13.png",
-        "realcompass_14.png",
-        "realcompass_15.png",       
 }
 
 local i
@@ -100,8 +97,8 @@ minetest.register_craft({
         output = 'realcompass:1',
         recipe = {
                 {'', 'default:steel_ingot', ''},
-                {'default:steel_ingot', 'default:mese_crystal_fragment', 'default:steel_ingot'},
-                {'', 'default:steel_ingot', ''}
+                {'default:copper_ingot', 'default:mese_crystal_fragment', 'default:copper_ingot'},
+                {'', 'default:copper_ingot', ''}
         }
 })
 

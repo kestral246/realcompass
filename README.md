@@ -15,34 +15,29 @@ This mod tries to address what the "real" essence of being a compass is all abou
 
 No options, no gui's, just an animated needle that points toward the north.
 
-The only other change that I made was, that since compasses are typically divided up in 1/4th, 
-1/8th, and 1/16th divisions, I updated it to point in 16 directions rather than the original 12.
+I'm now using compass textures derived from the wonderful ones created by tacotexmex for ccompass.
+I changed the colors and crafting recipe so that it can hopefully be used in parallel with ccompass,
+since they both provide different features.
+
+I have also gone back to using the original 12 pointing directions to make the animations look cleaner.
+
 
 ![Realcompass Screenshot](screenshot.png "Realcompass")
-
-I've converted the better looking ccompass textures to 16 directions and placed them in the
-textures_alt directory for testing.
-
-To use them, rename the "textures_alt" directory to "textures". 
-
-![Realcompass_alt Screenshot](screenshot_alt.png "Realcompass_alt")
 
 
 Crafting guide
 --------------
-Same crafting recipe as the other compass versions, so it's probably not compatible with them.
 
 ```
              , steel_ingot          ,
-  steel_ingot, mese_crystal_fragment, steel_ingot
-             , steel_ingot          ,
+  copper_ingot, mese_crystal_fragment, copper_ingot
+             , copper_ingot          ,
 ```
 
 
 License
 -------
-- **original textures:** original compass textures: CC BY-SA by Echo (45deg versions added by kestral246 also CC BY-SA)
-- **new textures:** from ccompass, textures CC BY-SA by tacotexmex (45deg versions added by kestral246 also CC BY-SA)
+- **new textures:** from ccompass, textures CC BY-SA by tacotexmex (colors changed by kestral246 also CC BY-SA)
 - **code:**  My changes to original code are CC0-1.0
 - **original compassgps license:** Original code by Echo, PilzAdam, and TeTpaAka is WTFPL. Kilarin (Donald Hines) changes are CC0 (No rights reserved)
 
