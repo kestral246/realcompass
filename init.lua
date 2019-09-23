@@ -1,8 +1,9 @@
--- realcompass 1.2
+-- realcompass 1.21
 -- This fork written by David_G (kestral246@gmail.com)
 --
 -- Changes:
 --		changed back to 16 directions.
+--		make crafting recipe optionally dependent on default mod.
 
 local activewidth=8 --until I can find some way to get it from minetest
 
@@ -88,12 +89,14 @@ for i,img in ipairs(images) do
 		})
 end
 
-minetest.register_craft({
-		output = 'realcompass:1',
-		recipe = {
-				{'', 'default:steel_ingot', ''},
-				{'default:copper_ingot', 'default:mese_crystal_fragment', 'default:copper_ingot'},
-				{'', 'default:copper_ingot', ''}
-		}
-})
-
+-- crafting recipe only works if default mod present. 
+if minetest.get_modpath("default") ~= nil then
+	minetest.register_craft({
+			output = 'realcompass:1',
+			recipe = {
+					{'', 'default:steel_ingot', ''},
+					{'default:copper_ingot', 'default:mese_crystal_fragment', 'default:copper_ingot'},
+					{'', 'default:copper_ingot', ''}
+			}
+	})
+end
