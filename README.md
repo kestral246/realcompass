@@ -19,7 +19,7 @@ I'm now using compass textures derived from the wonderful ones created by tacote
 I changed the colors and crafting recipe so that it can hopefully be used in parallel with ccompass,
 since they both provide different features.
 
-I have also gone back to using the original 12 pointing directions to make the animations look cleaner.
+**NEW:** I have returned to using 16 pointing directions. *(I started with tacotexmex's 16-direction update for ccompass, but I changed the colors and slightly shortened most of the compass needles.)*
 
 
 ![Realcompass Screenshot](screenshot.png "Realcompass")
@@ -37,7 +37,7 @@ Crafting guide
 
 License
 -------
-- **new textures:** from ccompass, textures CC BY-SA by tacotexmex (colors changed by kestral246 also CC BY-SA)
+- **new textures:** derived from ccompass, textures CC BY-SA by tacotexmex (changes by kestral246 also CC BY-SA)
 - **code:**  My changes to original code are CC0-1.0
 - **original compassgps license:** Original code by Echo, PilzAdam, and TeTpaAka is WTFPL. Kilarin (Donald Hines) changes are CC0 (No rights reserved)
 
