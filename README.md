@@ -19,7 +19,9 @@ I'm now using compass textures derived from the wonderful ones created by tacote
 I changed the colors and crafting recipe so that it can hopefully be used in parallel with ccompass,
 since they both provide different features.
 
-**NEW:** I have returned to using 16 pointing directions. *(I started with tacotexmex's 16-direction update for ccompass, but I changed the colors and slightly shortened most of the compass needles.)*
+I have returned to using 16 pointing directions. *(I started with tacotexmex's 16-direction update for ccompass, but I changed the colors and slightly shortened most of the compass needles.)*
+
+**New:** I have updated this mod to work with the craftguide mod. *(Thanks to feedback from FreeGamers.)*
 
 
 ![Realcompass Screenshot](screenshot.png "Realcompass")
