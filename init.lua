@@ -1,7 +1,7 @@
--- realcompass 1.22
+-- realcompass 1.23
 -- This fork written by David_G (kestral246@gmail.com)
 --
--- 2020-02-19
+-- 2020-02-20
 
 local activewidth=8 --until I can find some way to get it from minetest
 
@@ -93,7 +93,7 @@ if minetest.get_modpath("default") ~= nil then
 			output = 'realcompass:0',
 			recipe = {
 					{'', 'default:steel_ingot', ''},
-					{'default:copper_ingot', 'default:mese_crystal_fragment', 'default:copper_ingot'},
+					{'default:copper_ingot', 'default:glass', 'default:copper_ingot'},
 					{'', 'default:copper_ingot', ''}
 			}
 	})

@@ -29,11 +29,12 @@ I have returned to using 16 pointing directions. *(I started with tacotexmex's 1
 
 Crafting guide
 --------------
+**New:** Reduced cost of recipe by replacing mese\_fragment with glass.
 
 ```
-             , steel_ingot          ,
-  copper_ingot, mese_crystal_fragment, copper_ingot
-             , copper_ingot          ,
+              , steel_ingot ,
+  copper_ingot, glass       , copper_ingot
+              , copper_ingot,
 ```
 
 
